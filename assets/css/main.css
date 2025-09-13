@@ -7019,7 +7019,7 @@ input::-webkit-inner-spin-button {
 /* Header Menu and Submenu Css Start */
 /* Default (not active, not hovered) */
 .nav-menu__item > a {
-    color: #ffffff; 
+    color: var(--main-two-600) !important;
 }
 .nav-menu__item.activePage > a {    
     color: var(--main-600) !important;
@@ -8780,7 +8780,7 @@ input::-webkit-inner-spin-button {
 
 .brand-four-thumb img {
     cursor: pointer;
-    filter: brightness(0) invert(0);
+    /* filter: brightness(0) invert(0); */
     transition: 0.4s;
     margin-block-end: 30px;
 }

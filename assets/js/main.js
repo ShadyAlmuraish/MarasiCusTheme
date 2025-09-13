@@ -860,7 +860,7 @@ var slider = new Swiper('.brand-four-active', {
   spaceBetween: 40,
   loop: true,
   autoplay:true,
-  centeredSlides: true,
+  // centeredSlides: true,
   breakpoints: {
     '1400': {
       slidesPerView: 5,
